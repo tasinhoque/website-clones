@@ -1,9 +1,8 @@
 import React from 'react'
-import { SignInSide } from './mui-templates'
-import SignInSideSolution from './mui-templates/SignInSideSolution'
+import { SignUp } from './mui-templates'
 
 function App() {
-  return <SignInSide />
+  return <SignUp />
 }
 
 export default App

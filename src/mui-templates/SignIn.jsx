@@ -77,7 +77,7 @@ const SignIn = () => {
             Sign In
           </Button>
           <Grid container>
-            <Link href='#' variant='body2' style={{ flexGrow: 1 }}>
+            <Link href='#' variant='body2' className={classes.grow}>
               Forgot password?
             </Link>
             <Link href='#' variant='body2'>

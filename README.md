@@ -1,6 +1,6 @@
 # Website Clones
 
-List of websites I've cloned or am planning to clone in the future:
+List of websites I've cloned or am planning to clone in the future (the links are the actual websites):
 
 - [ ] [Material UI Templates](https://material-ui.com/getting-started/templates/)
   - [x] [Sign In](https://material-ui.com/getting-started/templates/sign-in/)
@@ -30,9 +30,9 @@ List of websites I've cloned or am planning to clone in the future:
 This is a frontend-only project. [React](https://reactjs.org/) and [Material UI](https://material-ui.com/) are used for developing this web app.  
 This project was bootstrapped with [Create React App](https://create-react-app.dev/).
 
-### Live Demo
+### Demo
 
-In the future this project will be hosted on [Heroku](https://heroku.com).
+In the future, this project will be hosted on [Heroku](https://heroku.com).
 
 ## Installation
 

@@ -1,8 +1,22 @@
 import React from 'react'
-import { SignUp } from './mui-templates'
+import { Route, Switch, useHistory } from 'react-router-dom'
+import Home from './Home'
+import MuiTemplates from './MuiTemplates'
 
 function App() {
-  return <SignUp />
+  let history = useHistory()
+  history.push('/mui-templates')
+
+  return (
+    <Switch>
+      <Route exact path='/'>
+        <Home />
+      </Route>
+      <Route path='/mui-templates'>
+        <MuiTemplates />
+      </Route>
+    </Switch>
+  )
 }
 
 export default App

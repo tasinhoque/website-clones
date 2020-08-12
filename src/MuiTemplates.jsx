@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useRouteMatch, Route, Switch } from 'react-router-dom'
-import { SignIn, SignInSide, SignUp, Blog } from './mui-templates'
+import { SignIn, SignInSide, SignUp, Blog, Checkout } from './mui-templates'
 
 const Menu = ({ url }) => {
   return (
@@ -16,6 +16,9 @@ const Menu = ({ url }) => {
       </li>
       <li>
         <Link to={`${url}/blog`}>Blog</Link>
+      </li>
+      <li>
+        <Link to={`${url}/checkout`}>Checkout</Link>
       </li>
     </ul>
   )
@@ -40,6 +43,9 @@ const MuiTemplates = () => {
       </Route>
       <Route path={`${path}/blog`}>
         <Blog />
+      </Route>
+      <Route path={`${path}/checkout`}>
+        <Checkout />
       </Route>
     </Switch>
   )

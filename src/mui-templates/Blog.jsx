@@ -6,7 +6,6 @@ import TwitterIcon from '@material-ui/icons/Twitter'
 import FacebookIcon from '@material-ui/icons/Facebook'
 import {
   Container,
-  Box,
   Button,
   Typography,
   Grid,

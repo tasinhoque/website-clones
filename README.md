@@ -6,8 +6,8 @@ List of websites I've cloned or am planning to clone in the future (the links ar
   - [x] [Sign In](https://material-ui.com/getting-started/templates/sign-in/)
   - [x] [Sign In Side](https://material-ui.com/getting-started/templates/sign-in-side/)
   - [x] [Sign Up](https://material-ui.com/getting-started/templates/sign-up/)
-  - [ ] [Blog](https://material-ui.com/getting-started/templates/blog/)
-  - [ ] [Checkout](https://material-ui.com/getting-started/templates/checkout/)
+  - [x] [Blog](https://material-ui.com/getting-started/templates/blog/)
+  - [x] [Checkout](https://material-ui.com/getting-started/templates/checkout/)
   - [ ] [Album](https://material-ui.com/getting-started/templates/album/)
   - [ ] [Pricing](https://material-ui.com/getting-started/templates/pricing/)
   - [ ] [Dashboard](https://material-ui.com/getting-started/templates/dashboard/)
@@ -29,10 +29,6 @@ List of websites I've cloned or am planning to clone in the future (the links ar
 
 This is a frontend-only project. [React](https://reactjs.org/) and [Material UI](https://material-ui.com/) are used for developing this web app.  
 This project was bootstrapped with [Create React App](https://create-react-app.dev/).
-
-### Demo
-
-In the future, this project will be hosted on [Heroku](https://heroku.com).
 
 ## Installation
 

@@ -5,7 +5,7 @@ import MuiTemplates from './MuiTemplates'
 
 function App() {
   let history = useHistory()
-  history.push('/mui-templates/checkout')
+  history.push('/mui-templates')
 
   return (
     <Switch>

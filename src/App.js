@@ -4,8 +4,8 @@ import Home from './Home'
 import MuiTemplates from './MuiTemplates'
 
 function App() {
-  let history = useHistory()
-  history.push('/mui-templates')
+  // let history = useHistory()
+  // history.push('/classical-music-recommender')
 
   return (
     <Switch>

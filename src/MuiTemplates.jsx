@@ -1,26 +1,18 @@
 import React from 'react'
-import { Link, useRouteMatch, Route, Switch } from 'react-router-dom'
+import { useRouteMatch, Route, Switch } from 'react-router-dom'
 import { SignIn, SignInSide, SignUp, Blog, Checkout } from './mui-templates'
+import { Grid } from '@material-ui/core'
+import CustomCard from './CustomCard'
 
 const Menu = ({ url }) => {
   return (
-    <ul>
-      <li>
-        <Link to={`${url}/sign-in`}>Sign In</Link>
-      </li>
-      <li>
-        <Link to={`${url}/sign-in-side`}>Sign In Side</Link>
-      </li>
-      <li>
-        <Link to={`${url}/sign-up`}>Sign Up</Link>
-      </li>
-      <li>
-        <Link to={`${url}/blog`}>Blog</Link>
-      </li>
-      <li>
-        <Link to={`${url}/checkout`}>Checkout</Link>
-      </li>
-    </ul>
+    <Grid container spacing={3}>
+      <CustomCard link={`${url}/sign-in`} text='Sign In' />
+      <CustomCard link={`${url}/sign-in-side`} text='Sign In Side' />
+      <CustomCard link={`${url}/sign-up`} text='Sign Up' />
+      <CustomCard link={`${url}/blog`} text='Blog' />
+      <CustomCard link={`${url}/checkout`} text='Checkout' />
+    </Grid>
   )
 }
 

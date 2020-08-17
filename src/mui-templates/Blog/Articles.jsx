@@ -14,7 +14,7 @@ const styles = theme => ({
     marginTop: theme.spacing(1),
   },
   markdown: {
-    // ...theme.typography.body2,
+    ...theme.typography.body2,
     padding: theme.spacing(3, 0),
   },
 })

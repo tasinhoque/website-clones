@@ -5,7 +5,7 @@ import Articles from './Articles'
 import PrimaryFeaturedPost from './PrimaryFeaturedPost'
 import SecondaryFeaturedPost from './SecondaryFeaturedPost'
 import Header from './Header'
-import Footer from './Footer'
+import Footer from '../Footer'
 
 const Blog = () => {
   return (

@@ -1,6 +1,13 @@
 import React from 'react'
 import { useRouteMatch, Route, Switch } from 'react-router-dom'
-import { SignIn, SignInSide, SignUp, Blog, Checkout } from './mui-templates'
+import {
+  SignIn,
+  SignInSide,
+  SignUp,
+  Blog,
+  Checkout,
+  Album,
+} from './mui-templates'
 import { Grid } from '@material-ui/core'
 import CustomCard from './CustomCard'
 
@@ -12,6 +19,7 @@ const Menu = ({ url }) => {
       <CustomCard link={`${url}/sign-up`} text='Sign Up' />
       <CustomCard link={`${url}/blog`} text='Blog' />
       <CustomCard link={`${url}/checkout`} text='Checkout' />
+      <CustomCard link={`${url}/album`} text='Album' />
     </Grid>
   )
 }
@@ -38,6 +46,9 @@ const MuiTemplates = () => {
       </Route>
       <Route path={`${path}/checkout`}>
         <Checkout />
+      </Route>
+      <Route path={`${path}/album`}>
+        <Album />
       </Route>
     </Switch>
   )

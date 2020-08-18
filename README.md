@@ -8,8 +8,8 @@ List of websites I've cloned or am planning to clone in the future (the links ar
   - [x] [Sign Up](https://material-ui.com/getting-started/templates/sign-up/)
   - [x] [Blog](https://material-ui.com/getting-started/templates/blog/)
   - [x] [Checkout](https://material-ui.com/getting-started/templates/checkout/)
-  - [ ] [Album](https://material-ui.com/getting-started/templates/album/)
-  - [ ] [Pricing](https://material-ui.com/getting-started/templates/pricing/)
+  - [x] [Album](https://material-ui.com/getting-started/templates/album/)
+  - [x] [Pricing](https://material-ui.com/getting-started/templates/pricing/)
   - [ ] [Dashboard](https://material-ui.com/getting-started/templates/dashboard/)
 - [ ] Google Websites
   - [ ] [News](https://news.google.com/)

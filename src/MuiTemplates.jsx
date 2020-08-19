@@ -8,6 +8,7 @@ import {
   Checkout,
   Album,
   Pricing,
+  Dashboard,
 } from './mui-templates'
 import { Grid } from '@material-ui/core'
 import CustomCard from './CustomCard'
@@ -22,6 +23,7 @@ const Menu = ({ url }) => {
       <CustomCard link={`${url}/checkout`} text='Checkout' />
       <CustomCard link={`${url}/album`} text='Album' />
       <CustomCard link={`${url}/pricing`} text='Pricing' />
+      <CustomCard link={`${url}/dashboard`} text='Dashboard' />
     </Grid>
   )
 }
@@ -54,6 +56,9 @@ const MuiTemplates = () => {
       </Route>
       <Route path={`${path}/pricing`}>
         <Pricing />
+      </Route>
+      <Route path={`${path}/dashboard`}>
+        <Dashboard />
       </Route>
     </Switch>
   )

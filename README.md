@@ -17,7 +17,7 @@ List of websites I've cloned or am planning to clone in the future (the links ar
   - [ ] [Drive](https://drive.google.com/)
   - [ ] [Mail](https://mail.google.com/)
   - [ ] [Keep](https://keep.google.com/)
-- [ ] [Avocode](https://flipboard.com/)
+- [ ] [Avocode](https://avocode.com/)
 - [ ] [Khan Academy](https://www.khanacademy.org/)
 - [ ] [Paypal](https://www.paypal.com/)
 - [ ] [Reddit](https://www.reddit.com/)
@@ -29,6 +29,8 @@ List of websites I've cloned or am planning to clone in the future (the links ar
 
 This is a frontend-only project. [React](https://reactjs.org/) and [Material UI](https://material-ui.com/) are used for developing this web app.  
 This project was bootstrapped with [Create React App](https://create-react-app.dev/).
+
+### [Live Demo](https://website-clones.vercel.app/)
 
 ## Installation
 

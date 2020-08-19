@@ -2,7 +2,7 @@
 
 List of websites I've cloned or am planning to clone in the future (the links are the actual websites):
 
-- [ ] [Material UI Templates](https://material-ui.com/getting-started/templates/)
+- [x] [Material UI Templates](https://material-ui.com/getting-started/templates/)
   - [x] [Sign In](https://material-ui.com/getting-started/templates/sign-in/)
   - [x] [Sign In Side](https://material-ui.com/getting-started/templates/sign-in-side/)
   - [x] [Sign Up](https://material-ui.com/getting-started/templates/sign-up/)
@@ -10,14 +10,14 @@ List of websites I've cloned or am planning to clone in the future (the links ar
   - [x] [Checkout](https://material-ui.com/getting-started/templates/checkout/)
   - [x] [Album](https://material-ui.com/getting-started/templates/album/)
   - [x] [Pricing](https://material-ui.com/getting-started/templates/pricing/)
-  - [ ] [Dashboard](https://material-ui.com/getting-started/templates/dashboard/)
+  - [x] [Dashboard](https://material-ui.com/getting-started/templates/dashboard/)
 - [ ] Google Websites
   - [ ] [News](https://news.google.com/)
   - [ ] [Photos](https://photos.google.com/)
   - [ ] [Drive](https://drive.google.com/)
   - [ ] [Mail](https://mail.google.com/)
   - [ ] [Keep](https://keep.google.com/)
-- [ ] [Avocode](https://flipboard.com/)
+- [ ] [Avocode](https://avocode.com/)
 - [ ] [Khan Academy](https://www.khanacademy.org/)
 - [ ] [Paypal](https://www.paypal.com/)
 - [ ] [Reddit](https://www.reddit.com/)
@@ -29,6 +29,8 @@ List of websites I've cloned or am planning to clone in the future (the links ar
 
 This is a frontend-only project. [React](https://reactjs.org/) and [Material UI](https://material-ui.com/) are used for developing this web app.  
 This project was bootstrapped with [Create React App](https://create-react-app.dev/).
+
+### [Live Demo](https://website-clones.vercel.app/)
 
 ## Installation
 

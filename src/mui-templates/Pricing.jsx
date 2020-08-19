@@ -14,7 +14,6 @@ import {
   Card,
   CardActions,
   CardContent,
-  IconButton,
   Box,
 } from '@material-ui/core'
 import StarBorderIcon from '@material-ui/icons/StarBorder'
@@ -37,9 +36,6 @@ const useStyles = makeStyles(theme => ({
   },
   footer: {
     padding: theme.spacing(6, 3),
-  },
-  cards: {
-    // marginBottom: theme.spacing(8),
   },
 }))
 
@@ -195,7 +191,7 @@ const Pricing = () => {
           little customization.
         </Typography>
       </Container>
-      <Container maxWidth='md' className={classes.cards}>
+      <Container maxWidth='md'>
         <Grid container spacing={4} alignItems='flex-end'>
           <SubscriptionCard
             type='Free'

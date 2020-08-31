@@ -4,7 +4,6 @@ import {
   AppBar,
   Toolbar,
   Typography,
-  CssBaseline,
   Paper,
   Grid,
   Button,
@@ -65,7 +64,6 @@ const Checkout = () => {
 
   return (
     <>
-      <CssBaseline />
       <AppBar color='inherit' position='absolute'>
         <Toolbar>
           <Typography variant='h6'>Company name</Typography>

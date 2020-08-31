@@ -3,7 +3,6 @@ import {
   AppBar,
   Toolbar,
   Typography,
-  CssBaseline,
   Divider,
   makeStyles,
   Button,
@@ -145,7 +144,6 @@ const Pricing = () => {
 
   return (
     <>
-      <CssBaseline />
       <AppBar color='default' position='static' elevation={0}>
         <Toolbar>
           <Grid container spacing={4} alignItems='center'>

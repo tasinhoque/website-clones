@@ -12,7 +12,6 @@ import {
   CardMedia,
   CardContent,
   CardActions,
-  CssBaseline,
 } from '@material-ui/core'
 import PhotoCameraIcon from '@material-ui/icons/PhotoCamera'
 import Footer from './Footer'
@@ -63,7 +62,6 @@ const Album = () => {
 
   return (
     <>
-      <CssBaseline />
       <AppBar position='static'>
         <Toolbar>
           <IconButton edge='start' color='inherit'>

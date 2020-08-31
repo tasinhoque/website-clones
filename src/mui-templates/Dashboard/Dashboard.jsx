@@ -7,7 +7,6 @@ import {
   Badge,
   AppBar,
   Toolbar,
-  CssBaseline,
   Typography,
   IconButton,
   Paper,
@@ -117,7 +116,6 @@ const Dashboard = () => {
 
   return (
     <div className={classes.root}>
-      <CssBaseline />
       <AppBar
         position='fixed'
         className={clsx(classes.appBar, {

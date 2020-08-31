@@ -12,18 +12,69 @@ import {
 } from './mui-templates'
 import { Grid } from '@material-ui/core'
 import CustomCard from './CustomCard'
+import signIn from './mui-templates/previews/sign-in.png'
+import signInSide from './mui-templates/previews/sign-in-side.png'
+import signUp from './mui-templates/previews/sign-up.png'
+import blog from './mui-templates/previews/blog.png'
+import checkout from './mui-templates/previews/checkout.png'
+import pricing from './mui-templates/previews/pricing.png'
+import dashboard from './mui-templates/previews/dashboard.png'
+import album from './mui-templates/previews/album.png'
+
+const muiClones = [
+  {
+    img: signIn,
+    text: 'Sign In',
+    CloneComponent: SignIn,
+  },
+  {
+    img: signInSide,
+    text: 'Sign In Side',
+    CloneComponent: SignInSide,
+  },
+  {
+    img: signUp,
+    text: 'Sign Up',
+    CloneComponent: SignUp,
+  },
+  {
+    img: blog,
+    text: 'Blog',
+    CloneComponent: Blog,
+  },
+  {
+    img: checkout,
+    text: 'Checkout',
+    CloneComponent: Checkout,
+  },
+  {
+    img: pricing,
+    text: 'Pricing',
+    CloneComponent: Pricing,
+  },
+  {
+    img: dashboard,
+    text: 'Dashboard',
+    CloneComponent: Dashboard,
+  },
+  {
+    img: album,
+    text: 'Album',
+    CloneComponent: Album,
+  },
+]
 
 const Menu = ({ url }) => {
   return (
     <Grid container spacing={3}>
-      <CustomCard link={`${url}/sign-in`} text='Sign In' />
-      <CustomCard link={`${url}/sign-in-side`} text='Sign In Side' />
-      <CustomCard link={`${url}/sign-up`} text='Sign Up' />
-      <CustomCard link={`${url}/blog`} text='Blog' />
-      <CustomCard link={`${url}/checkout`} text='Checkout' />
-      <CustomCard link={`${url}/album`} text='Album' />
-      <CustomCard link={`${url}/pricing`} text='Pricing' />
-      <CustomCard link={`${url}/dashboard`} text='Dashboard' />
+      {muiClones.map(clone => (
+        <CustomCard
+          key={clone.text}
+          img={clone.img}
+          link={`${url}/${clone.text.toLowerCase().replace(/[ ]/g, '-')}`}
+          text={clone.text}
+        />
+      ))}
     </Grid>
   )
 }
@@ -36,30 +87,14 @@ const MuiTemplates = () => {
       <Route exact path={path}>
         <Menu url={url} />
       </Route>
-      <Route path={`${path}/sign-in`}>
-        <SignIn />
-      </Route>
-      <Route path={`${path}/sign-in-side`}>
-        <SignInSide />
-      </Route>
-      <Route path={`${path}/sign-up`}>
-        <SignUp />
-      </Route>
-      <Route path={`${path}/blog`}>
-        <Blog />
-      </Route>
-      <Route path={`${path}/checkout`}>
-        <Checkout />
-      </Route>
-      <Route path={`${path}/album`}>
-        <Album />
-      </Route>
-      <Route path={`${path}/pricing`}>
-        <Pricing />
-      </Route>
-      <Route path={`${path}/dashboard`}>
-        <Dashboard />
-      </Route>
+      {muiClones.map(clone => (
+        <Route
+          key={clone.text}
+          path={`${path}/${clone.text.toLowerCase().replace(/[ ]/g, '-')}`}
+        >
+          <clone.CloneComponent />
+        </Route>
+      ))}
     </Switch>
   )
 }

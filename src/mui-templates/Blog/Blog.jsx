@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Grid, CssBaseline } from '@material-ui/core'
+import { Container, Grid } from '@material-ui/core'
 import RightNavigation from './RightNavigation'
 import Articles from './Articles'
 import PrimaryFeaturedPost from './PrimaryFeaturedPost'
@@ -10,7 +10,6 @@ import Footer from '../Footer'
 const Blog = () => {
   return (
     <Container>
-      <CssBaseline />
       <Header />
       <Grid container spacing={4}>
         <PrimaryFeaturedPost />

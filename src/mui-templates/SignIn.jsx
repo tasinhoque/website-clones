@@ -9,7 +9,6 @@ import {
   Checkbox,
   Button,
   Container,
-  CssBaseline,
 } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined'
@@ -37,7 +36,6 @@ const SignIn = () => {
 
   return (
     <Container component='main' maxWidth='xs'>
-      <CssBaseline />
       <Grid
         container
         direction='column'

@@ -12,14 +12,14 @@ import {
 } from './mui-templates'
 import { Grid } from '@material-ui/core'
 import CustomCard from './CustomCard'
-import signIn from './mui-templates/previews/sign-in.png'
-import signInSide from './mui-templates/previews/sign-in-side.png'
-import signUp from './mui-templates/previews/sign-up.png'
-import blog from './mui-templates/previews/blog.png'
-import checkout from './mui-templates/previews/checkout.png'
-import pricing from './mui-templates/previews/pricing.png'
-import dashboard from './mui-templates/previews/dashboard.png'
-import album from './mui-templates/previews/album.png'
+import signIn from './mui-templates/previews/sign-in.jpg'
+import signInSide from './mui-templates/previews/sign-in-side.jpg'
+import signUp from './mui-templates/previews/sign-up.jpg'
+import blog from './mui-templates/previews/blog.jpg'
+import checkout from './mui-templates/previews/checkout.jpg'
+import pricing from './mui-templates/previews/pricing.jpg'
+import dashboard from './mui-templates/previews/dashboard.jpg'
+import album from './mui-templates/previews/album.jpg'
 
 const muiClones = [
   {

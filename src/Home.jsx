@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid, CssBaseline } from '@material-ui/core'
 import CustomCard from './CustomCard'
-import muiTemplates from './mui-templates.png'
+import muiTemplates from './mui-templates.jpg'
 
 const Home = () => {
   return (

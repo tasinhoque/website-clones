@@ -27,7 +27,7 @@ List of websites I've cloned or am planning to clone in the future (the links ar
 
 ### Technology Stack
 
-[React](https://reactjs.org/), React Router and [Material UI](https://material-ui.com/) are used for developing this web app.  
+[React](https://reactjs.org/), [React Router](https://reactrouter.com/) and [Material UI](https://material-ui.com/) are used for developing this web app.  
 
 ### [Live Demo](https://website-clones.vercel.app/)
 

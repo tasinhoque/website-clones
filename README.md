@@ -27,8 +27,7 @@ List of websites I've cloned or am planning to clone in the future (the links ar
 
 ### Technology Stack
 
-This is a frontend-only project. [React](https://reactjs.org/) and [Material UI](https://material-ui.com/) are used for developing this web app.  
-This project was bootstrapped with [Create React App](https://create-react-app.dev/).
+[React](https://reactjs.org/), React Router and [Material UI](https://material-ui.com/) are used for developing this web app.  
 
 ### [Live Demo](https://website-clones.vercel.app/)
 
